@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.center-block {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    height: 330px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+}
+
+.top-block {
+    font-size: 14px;
+}
+
+.btn-edit,
+.btn-style,
+.btn-add,
+.btn-save,
+.btn-text-color,
+.btn-bg-color,
+.btn-create-list,
+.btn-create-table {
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.btn-edit {
+    background-color: orange;
+}
+
+.btn-style {
+    background-color: rgb(109, 109, 245);
+}
+
+.btn-add {
+    background-color: red;
+}
+
+.btn-save,
+.btn-create-table,
+.btn-create-list {
+    background-color: green;
+
+}
+
+.btn-text-color,
+.btn-bg-color {
+    background-color: gray;
+}
+
+.edit-block,
+.style-block {
+    display: none;
+}
+
+.edit-area {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    font-size: 14px;
+}
+
+.colors {
+    width: 150px;
+    height: 150px;
+    outline: 1px solid black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+span {
+    font-size: 20px;
+}
+
+h2 {
+    margin: 5px;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+[type="text"] {
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+[type="text"]:focus,
+select:focus,
+.edit-area:focus {
+    outline: none;
+    box-shadow: 0 0 10px 5px rgb(158, 158, 243);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.first,
+.second {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
